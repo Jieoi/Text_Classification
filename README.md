@@ -1,3 +1,3 @@
 # Text_Classification
 
-<p>First commit</p>
+<p>Project on Sentimental analysis based on https://ai.stanford.edu/~amaas/data/sentiment/ dataset</p>
