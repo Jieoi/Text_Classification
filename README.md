@@ -24,19 +24,23 @@ The [Large Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sentiment/)
 
 ## Data Exploration
 ### Rating Distribution
-![Rating Distribution](rating_dist.png)
+![Rating Distribution](images/rating_dist.png)
+
 Description: This image depicts the distribution of ratings for the movie reviews in the dataset.
 
 ### Words Distribution Before Stopword Removal
-![Words Distribution Before Stopword Removal](words_dist.png)
+![Words Distribution Before Stopword Removal](images/words_dis.png)
+
 Description: The distribution of words before stopword removal, lemmatization, changing words to full form, and removing identified features.
 
 ### Comparison of Words Distribution After Stopword Removal
-![Comparison of Words Distribution After Stopword Removal](word_dis_compare.png)
-Description: This image compares the distribution of frequently used words after the removal of stopwords.
+![Comparison of Words Distribution After Stopword Removal](images/word_dis_compare.png)
+
+Description: This image compares the distribution of frequently used words after the removal of stopwords and other algorithms.
 
 ### WordNet for Negative and Positive Sentiment
-![WordNet for Negative and Positive Sentiment](word_net.png)
+![WordNet for Negative and Positive Sentiment](images/word_net.png)
+
 Description: WordNet visualization for negative and positive sentiments.
 
 ## Machine Learning Models
@@ -49,6 +53,10 @@ The following machine learning models were employed for sentiment analysis:
 
 ## Evaluation Methodology
 The project's success will be gauged using metrics such as accuracy, precision, recall, and F1-score. The confusion matrix will offer a detailed breakdown of the model's predictions against actual sentiments. While accuracy remains the primary metric, other considerations will be explored during model optimization.
+
+## Results 
+The model developed in this project is compared with the BERT model by google fine tuned with a similar dataset
+![result](images/model_compare.png)
 
 ## Explore the Notebook
 Explore the notebook to uncover insights into user sentiments in the film industry, with the potential for transfer learning applications in diverse fields beyond movie reviews. Your journey into understanding and leveraging sentiment analysis begins here!
